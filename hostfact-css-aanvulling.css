@@ -1,0 +1,165 @@
+/***************************************************
+                 HOASTED CUSTOM HOSTFACT CSS WORDPRESS INTEGRATIE
+***************************************************/
+
+@font-face {
+font-family: "GT-Walsheim-Medium";
+src: url("https://www.jouwsitehier.nl/files/GT-Walsheim-Medium.eot");
+src: 
+url("https://www.jouwsitehier.nl/files/GT-Walsheim-Medium.woff") format("woff"),
+url("https://www.jouwsitehier.nl/files/GT-Walsheim-Medium.ttf") format("ttf"),
+}
+
+@font-face {
+font-family: "GT-Walsheim-Regular";
+src: url("https://www.jouwsitehier.nl/files/GT-Walsheim-Regular.eot");
+src: 
+url("https://www.jouwsitehier.nl/files/GT-Walsheim-Regular.woff") format("woff"),
+url("https://www.jouwsitehier.nl/files/GT-Walsheim-Regular.ttf") format("ttf"),
+}
+
+
+body { overflow-x: hidden!important;}
+
+.bestelform_footer {
+    text-align: center;
+    background-color: #ef9ad6;
+    padding: 40px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: -10px;
+    color: #171253;
+    font-family: arial;
+}
+
+.bestelform_footer img{
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.bestelform_footer span{
+	font-size: 13px;
+}
+
+.bestelform_header {
+    background-color: #ef9ad6;
+    padding: 30px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin-left: -10px;
+    color: #171253;
+    font-family: arial;
+}
+
+
+.bestelform_header img {
+	filter: brightness(100);
+	height: 20px;
+	margin-bottom: 0px;
+	
+}
+
+.bestelform_headerbutton { 
+    border: 2px solid #fff;
+    position: absolute; 
+    float: right; 
+    top: 20px; 
+    right: 80px; 
+    padding: 10px 30px;
+}
+
+.bestelform_headerbutton a{ 
+    color: #fff!important;
+    text-decoration: none!important;
+}
+
+#bestelform_menu {
+	width: 65%;
+}
+
+#bestelform_menu,
+#bestelform_menu ul,
+#bestelform_menu li {
+	display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#bestelform_menu {
+    margin: 0px auto!important; 
+    display: block!important; 
+    white-space:nowrap!important; 
+    width: 570px!important;
+    margin-left: -20px;
+    margin-top: -10px;
+    margin-top: -20px!important;
+}
+
+#bestelform_menu a {
+	color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-decoration: none;
+    font-family: 'GT-Walsheim-Regular', sans-serif;
+    font-weight: 400;
+}
+
+.o_form_container {
+	margin-top: 130px!important;
+}
+
+.o_form h2 {
+    font-family: 'GT-Walsheim-Medium', sans-serif;
+    font-weight: 100;
+}
+
+.goto_orderform {
+	margin-bottom: 30px!important;
+}
+
+.wf_form_submit {
+	background: #170e54;
+   	padding: 12px 25px 11px 26px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    margin-left: -5px;
+    line-height: 19px;
+    font-weight: 500;    
+    outline:none;
+}
+
+    
+.w_form input[type="text"] {
+	width: 80%!important;
+	border: 1px solid #E5E5E5!important;
+    padding: 10px 7px!important;
+    background: #E5E5E5;
+    font-size: 17px;
+    outline:none;
+    
+}
+
+th {
+	font-family: 'GT-Walsheim-Medium', sans-serif!important;
+    font-weight: 400!important;
+    font-size: 17px;
+}
+
+
+td {
+	font-family: 'GT-Walsheim-Medium', sans-serif!important;
+    font-weight: 100!important;
+    font-size: 16px;
+}
+
+.domain_td_order {
+	width: 130px;
+}
