@@ -4,18 +4,18 @@
 
 @font-face {
 font-family: "GT-Walsheim-Medium";
-src: url("https://www.siite.nl/files/GT-Walsheim-Medium.eot");
+src: url("/files/GT-Walsheim-Medium.eot");
 src: 
-url("https://www.siite.nl/files/GT-Walsheim-Medium.woff") format("woff"),
-url("https://www.siite.nl/files/GT-Walsheim-Medium.ttf") format("ttf"),
+url("/files/GT-Walsheim-Medium.woff") format("woff"),
+url("/files/GT-Walsheim-Medium.ttf") format("ttf"),
 }
 
 @font-face {
 font-family: "GT-Walsheim-Regular";
-src: url("https://www.siite.nl/files/GT-Walsheim-Regular.eot");
+src: url("/files/GT-Walsheim-Regular.eot");
 src: 
-url("https://www.siite.nl/files/GT-Walsheim-Regular.woff") format("woff"),
-url("https://www.siite.nl/files/GT-Walsheim-Regular.ttf") format("ttf"),
+url("/files/GT-Walsheim-Regular.woff") format("woff"),
+url("/files/GT-Walsheim-Regular.ttf") format("ttf"),
 }
 
 
